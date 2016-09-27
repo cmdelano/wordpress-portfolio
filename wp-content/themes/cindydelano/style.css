@@ -1,0 +1,40 @@
+/*
+Theme Name: Cindy DeLano
+Author: Cindy DeLano
+Author URI: http://www.cindydelano.com/
+Description: A portfolio site for Cindy DeLano
+Version: 1.0.0
+Template: simone
+Text domain: cindydelano
+    
+
+/*-------------------------------------------------*/
+
+/* HEADER */
+
+.header-background-image .title-box {
+    background: #fff; /* background changed to white */
+    background: hsla(0, 0%, 100%, .8); /* opacity changed from .7 */
+    border: 2px solid #111; /* border changed from 'solid 1px #fff' #111 = almost black */
+    border: 2px solid hsla(0, 0%, 6.7%, .7); /* added hsla values for #111 border */
+    box-shadow: .75px .75px #333; /* box shaddow added */
+}
+
+.site-title {
+    text-transform: capitalize; /* changed from all caps */
+}
+
+.title-box {
+    width: 800px; /* width of title-box changed from 600px to 800px */
+}
+
+.site-title a,
+.site-description {
+    color: #000; /* changed font color to white */
+}
+
+.site-description {
+    font-weight: 400; /* changed font-weight from 300 */
+}
+
+
