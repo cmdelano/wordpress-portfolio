@@ -23,7 +23,7 @@ get_header(); ?>
 
                             <div class="entry-meta">
                                 <?php _e('Featured in: ', 'simone'); ?><span class="parent-post-link"><a href="<?php echo get_permalink( $post->post_parent ); ?>" rel="gallery"><?php echo get_the_title( $post->post_parent ); ?></a></span>.
-                                <?php _e('Full size image: ', 'simone'); ?><span class="full-size-link"><a href="<?php echo wp_get_attachment_url(); ?>"><?php echo $metadata['width']; ?> &times; <?php echo $metadata['height']; ?></a></span>.
+                                <?php _e('Full size image: ', 'simone'); ?><span class="full-size-link"><a href="<?php echo wp_get_attachment_url(); ?>"><?php echo $metadata['width']; ?> &times; <?php echo $metadata['height']; ?></a></span>
                                 <?php edit_post_link( __( 'Edit attachment post', 'simone' ), '<span class="edit-link">', '</span>.' ); ?>
                             </div><!-- .entry-meta -->
                         </header><!-- .entry-header -->
