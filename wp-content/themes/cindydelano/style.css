@@ -9,7 +9,22 @@ Text domain: cindydelano
     
 
 /*-------------------------------------------------*/
+/* TYPOGRAPHY */
 
+/* Changing body text to PT Sans from original PT Serif */
+
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: 'PT sans', sans-serif;
+    line-height: 1.5;
+    color: #404040;
+    color: hsl(0, 0%, 25%);
+}
 /* HEADER */
 
 .header-background-image .title-box {
@@ -35,6 +50,14 @@ Text domain: cindydelano
 
 .site-description {
     font-weight: 400; /* changed font-weight from 300 */
+}
+
+/* MAIN MENU */
+
+.main-navigation ul {
+    margin: 0;
+    padding-left: 2%; /* padding-left changed from 0 to 2% to create some space left of the main menu */
+    list-style: none;
 }
 
 
