@@ -6,7 +6,7 @@
 
 function create_custom_post_types() {
 
-register_post_type( 'about',
+register_post_type( 'projects',
         array(
            'labels' => array(
                 'name' => __( 'Projects' ),
