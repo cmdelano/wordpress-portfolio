@@ -2,8 +2,6 @@
 
 // function that creates the new custom file type Projects
 
-// creating the About post type
-
 function create_custom_post_types() {
 
 register_post_type( 'projects',
@@ -43,12 +41,15 @@ register_post_type( 'projects',
 add_action( 'init', 'create_custom_post_types' );
 
 
+// Adding PT Sans and Cookie to theme
 // PT Sans: https://fonts.google.com/specimen/PT+Sans
+// Cookie: https://fonts.google.com/specimen/Cookie
 
 function google_fonts() {
     $query_args = array(
-        'family' => 'PT+Sans:400,400i,700,700i'
+        'family' => 'PT+Sans:400,400i,700,700i|Cookie|Lobster'
         );
+
     wp_register_style( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
             }
             

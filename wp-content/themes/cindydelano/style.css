@@ -25,6 +25,11 @@ textarea {
     color: #404040;
     color: hsl(0, 0%, 25%);
 }
+
+h3 {
+    font-family: 'Cookie', cursive;
+}
+
 /* HEADER */
 
 .header-background-image .title-box {
